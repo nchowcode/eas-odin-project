@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+}
+
+.grid-row,.grid-column{
+    display: flex;
+    border: 1px solid gray;
+    flex-grow: 1;
+}
